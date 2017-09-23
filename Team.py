@@ -18,8 +18,11 @@ class Team:
         self.passing_yards = stats_rows[7].find_all("td")[1].next_element
         self.total_offense_yards_play = stats_rows[10].find_all("td")[1].next_element        
         self.record = record_rows[1].find_all("td")[1].next_element
+        self.wins = self.record.split("-")[0]
+        self.losses = self.record.split("-")[1]
 
     def __str__(self):
         return "Points/game: " + str(self.scoring_points_game) + "\nTotal first downs: " + str(self.total_first_down) + \
                 "\nRushing yards/attempt: " + str(self.rushing_yards_attempt) + "\nTotal passing yards: " + str(self.passing_yards) + \
-                "\nTotal offense yards/play: " + str(self.total_offense_yards_play) + "\nRecord for season: " + str(self.record)
+                "\nTotal offense yards/play: " + str(self.total_offense_yards_play) + "\nRecord for season: " + str(self.record) + \
+                "\nWins: " + str(self.wins) + "\nLosses: " + str(self.losses)

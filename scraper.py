@@ -18,14 +18,47 @@ from bs4 import BeautifulSoup
 import requests
 import Team
 
-# gets stats from MSU's 2016 football season
-year = "2016"
-team = MISSISSIPPI_STATE
-url = "http://www.cfbstats.com/" + year + "/team/" + team + "/index.html"
-response = requests.get(url)
-data = response.text
+def get_team_data(year, team):
+    """Fetches data for a given team and year, returns a Team object"""
+    url = "http://www.cfbstats.com/" + year + "/team/" + str(team) + "/index.html"
+    response = requests.get(url)
+    data = response.text
 
-souped_data = BeautifulSoup(data, "html.parser")
-tables = souped_data.find_all("table")
-team_stats = Team.Team(tables[0], tables[1], tables[2])
-print(team_stats)
+    souped_data = BeautifulSoup(data, "html.parser")
+    tables = souped_data.find_all("table")
+    return Team.Team(tables[0], tables[1], tables[2])
+
+year = "2016"
+msu_2016 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2016)
+print("")
+lsu_2016 = get_team_data(year, LSU)
+print(lsu_2016)
+
+year = "2015"
+msu_2015 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2015)
+print("")
+lsu_2015 = get_team_data(year, LSU)
+print(lsu_2015)
+
+year = "2014"
+msu_2014 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2014)
+print("")
+lsu_2014 = get_team_data(year, LSU)
+print(lsu_2014)
+
+year = "2013"
+msu_2013 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2013)
+print("")
+lsu_2013 = get_team_data(year, LSU)
+print(lsu_2013)
+
+year = "2012"
+msu_2012 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2012)
+print("")
+lsu_2012 = get_team_data(year, LSU)
+print(lsu_2012)
