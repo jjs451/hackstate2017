@@ -29,8 +29,36 @@ def get_team_data(year, team):
     return Team.Team(tables[0], tables[1], tables[2])
 
 year = "2016"
-msu = get_team_data(year, MISSISSIPPI_STATE)
-print(msu)
+msu_2016 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2016)
 print("")
-lsu = get_team_data(year, LSU)
-print(lsu)
+lsu_2016 = get_team_data(year, LSU)
+print(lsu_2016)
+
+year = "2015"
+msu_2015 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2015)
+print("")
+lsu_2015 = get_team_data(year, LSU)
+print(lsu_2015)
+
+year = "2014"
+msu_2014 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2014)
+print("")
+lsu_2014 = get_team_data(year, LSU)
+print(lsu_2014)
+
+year = "2013"
+msu_2013 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2013)
+print("")
+lsu_2013 = get_team_data(year, LSU)
+print(lsu_2013)
+
+year = "2012"
+msu_2012 = get_team_data(year, MISSISSIPPI_STATE)
+print(msu_2012)
+print("")
+lsu_2012 = get_team_data(year, LSU)
+print(lsu_2012)
