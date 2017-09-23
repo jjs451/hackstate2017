@@ -2,7 +2,7 @@
 
 from bs4 import BeautifulSoup 
 import requests
-import Team_statistics
+import Team
 
 # gets stats from MSU's 2016 football season
 url = "http://www.cfbstats.com/2016/team/430/index.html"
@@ -11,4 +11,4 @@ data = response.text
 
 souped_data = BeautifulSoup(data)
 tables = souped_data.find_all("table")
-team_stats = Team_statistics(tables[0], tables[1], tables[2])
+team_stats = Team(tables[0], tables[1], tables[2])

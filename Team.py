@@ -1,4 +1,4 @@
-class Team_statistics:
+class Team:
     """Holds all the stats for a particular team
     Author: Joseph Sommer
     Date: 8/23/17
