@@ -9,6 +9,7 @@ url = "http://www.cfbstats.com/2016/team/430/index.html"
 response = requests.get(url)
 data = response.text
 
-souped_data = BeautifulSoup(data)
+souped_data = BeautifulSoup(data, "html.parser")
 tables = souped_data.find_all("table")
-team_stats = Team(tables[0], tables[1], tables[2])
+team_stats = Team.Team(tables[0], tables[1], tables[2])
+print(team_stats)
