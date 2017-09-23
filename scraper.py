@@ -18,14 +18,19 @@ from bs4 import BeautifulSoup
 import requests
 import Team
 
-# gets stats from MSU's 2016 football season
-year = "2016"
-team = MISSISSIPPI_STATE
-url = "http://www.cfbstats.com/" + year + "/team/" + team + "/index.html"
-response = requests.get(url)
-data = response.text
+def get_team_data(year, team):
+    """Fetches data for a given team and year, returns a Team object"""
+    url = "http://www.cfbstats.com/" + year + "/team/" + str(team) + "/index.html"
+    response = requests.get(url)
+    data = response.text
 
-souped_data = BeautifulSoup(data, "html.parser")
-tables = souped_data.find_all("table")
-team_stats = Team.Team(tables[0], tables[1], tables[2])
-print(team_stats)
+    souped_data = BeautifulSoup(data, "html.parser")
+    tables = souped_data.find_all("table")
+    return Team.Team(tables[0], tables[1], tables[2])
+
+year = "2016"
+msu = get_team_data(year, MISSISSIPPI_STATE)
+print(msu)
+print("")
+lsu = get_team_data(year, LSU)
+print(lsu)
