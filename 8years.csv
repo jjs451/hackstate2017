@@ -493,4 +493,8 @@ Tennessee,South Carolina,27,24
 Tennessee,Missouri,19,8
 Tennessee,Vanderbilt,53,28
 Texas A&M,Vanderbilt,25,0
+<<<<<<< HEAD
 Vanderbilt,Tennessee,28,53
+=======
+Vanderbilt,Tennessee,28,53
+>>>>>>> c3fb8d50312fd64279538ad6894b62f4e80833e9
