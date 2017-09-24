@@ -1,13 +1,44 @@
 from tkinter import *
 from tkinter import ttk
+from tkinter import messagebox
 
 class App:
     def __init__(self, master):
         def get_input():
             input1, input2 = self.get_matchup_input()
-            input1 = self.convert_team(input1)
-            input2 = self.convert_team(input2)
             print(input1, input2)
+            data = ""
+            with open("predictions.csv") as csv:
+                for row in csv.readlines():
+                    if (input1 in row) and (input2 in row):
+                        print(row)
+                        data = row
+                        break
+            data = data.split(",")
+            try:
+                team1 = data[0]
+                team2 = data[1]
+                team1_score = data[2]
+                team2_score = data[3]
+                team1_score_predicted = data[4]
+                team2_score_predicted = data[5]
+                result = data[8]
+                if result == "0":
+                    result = "False"
+                else:
+                    result = "True"
+
+                result_string = "Teams :    " + str(team1) + " vs " + str(team2) + "\nPredicted score: " + str(team1_score_predicted) + "   " + (team2_score_predicted) + \
+                                "\nActual score: " + str(team1_score) + "     " + str(team2_score) + "\nCorrect prediction? " + str(result) 
+
+                messagebox.showinfo("Result", result_string)
+                print(result_string)
+            except IndexError:
+                print("Insufficient data to make prediction, please try a different match")
+                messagebox.showerror("Error", "Insufficient data to make prediction, please try a different match")
+            #input1 = self.convert_team(input1)
+            #input2 = self.convert_team(input2)
+            #print(input1, input2)
 
         self.master = master
         center(master)
@@ -47,18 +78,18 @@ class App:
         "Georgia": 257, 
         "Kentucky": 334, 
         "LSU": 365,
-        "Mississippi State": 430, 
+        "Mississippi St.": 430, 
         "Missouri": 434,
         "South Carolina": 648, 
         "Tennesee": 694,
-        "TSUN": 433, 
+        "Mississippi": 433, 
         "Texas": 697, 
         "Vanderbilt": 736 }
         return teams[name]
 
 
     def get_matchup_input(self):
-        Teams = ["Alabama", "Arkansas", "Auburn", "Florida", "Georgia", "Kentucky", "LSU" ,"Mississippi State", "Missouri", "South Carolina", "Tennesee", "TSUN", "Texas", "Vanderbilt" ]
+        Teams = ["Alabama", "Arkansas", "Auburn", "Florida", "Georgia", "Kentucky", "LSU" ,"Mississippi St.", "Missouri", "South Carolina", "Tennesee", "Mississippi", "Texas", "Vanderbilt" ]
         top = Toplevel()
         center(top)
         top.title = "Pick a Team"

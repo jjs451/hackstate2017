@@ -77,16 +77,22 @@ for row in data:
     else:
         csv.write(",".join(line1))
 csv.close()
-# for row in data:
-#     line1 = row.split(",")
-#     dupe_found = False
-#     for row in data:
-#         line2 = row.split(",")
-#         if (line1[0] == line2[1]) and (line1[1] == line2[0]) and (line1[2]+"\n" == line2[3]) and (line1[3] == line2[2]+"\n"):
-#             dupe_found = True
-#             data.remove(",".join(line2))
-#             break
+csv = open("data.csv", "r")
+data = csv.readlines()
+csv.close()
+csv = open("data.csv", "w")
+csv.seek(0)
+csv.truncate()
+for row in data:
+    line1 = row.split(",")
+    dupe_found = False
+    for row in data:
+        line2 = row.split(",")
+        if (line1[0] == line2[1]) and (line1[1] == line2[0]) and (line1[2]+"\n" == line2[3]) and (line1[3] == line2[2]+"\n"):
+            dupe_found = True
+            data.remove(",".join(line2))
+            break
             
-#     csv.write(",".join(line1))
-#     print(line1)
-# csv.close()
+    csv.write(",".join(line1))
+    print(line1)
+csv.close()
