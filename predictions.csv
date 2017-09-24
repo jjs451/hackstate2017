@@ -1,58 +1,58 @@
-,,Actual,,Predicted,,,,
-Mississippi St.,South Carolina,27,14,22,30,FALSE,TRUE,0
-Mississippi St.,LSU,20,23,19,33,TRUE,TRUE,1
-Mississippi St.,Auburn,14,38,24,26,TRUE,TRUE,1
-Mississippi St.,Kentucky,38,40,30,21,TRUE,FALSE,0
-Mississippi St.,Texas A&M,35,28,25,36,FALSE,TRUE,0
-Mississippi St.,Alabama,3,51,11,28,TRUE,TRUE,1
-Mississippi St.,Arkansas,42,58,30,31,TRUE,TRUE,1
-Mississippi St.,Mississippi,55,20,23,28,FALSE,TRUE,0
-Alabama,Mississippi,48,43,30,17,FALSE,FALSE,1
-Alabama,Kentucky,34,6,35,17,FALSE,FALSE,1
-Alabama,Arkansas,49,30,37,12,FALSE,FALSE,1
-Alabama,Tennessee,49,10,23,23,FALSE,TRUE,0
-Alabama,Texas A&M,33,14,43,25,FALSE,FALSE,1
-Alabama,LSU,10,0,25,17,FALSE,FALSE,1
-Alabama,Auburn,30,12,36,21,FALSE,FALSE,1
-Alabama,Florida,54,16,31,18,FALSE,FALSE,1
-Arkansas,Texas A&M,24,45,30,36,TRUE,TRUE,1
-Arkansas,Mississippi,34,30,30,29,FALSE,FALSE,1
-Arkansas,Auburn,3,56,33,33,TRUE,TRUE,1
-Arkansas,Florida,31,10,17,30,FALSE,TRUE,0
-Arkansas,LSU,10,38,25,26,TRUE,TRUE,1
-Arkansas,Missouri,24,28,25,20,TRUE,FALSE,0
-Auburn,Texas A&M,16,29,38,38,TRUE,TRUE,1
-Auburn,LSU,18,13,22,28,FALSE,TRUE,0
-Auburn,Mississippi,40,29,29,29,FALSE,FALSE,1
-Auburn,Vanderbilt,23,16,17,21,FALSE,TRUE,0
-Auburn,Georgia,7,13,20,34,TRUE,TRUE,1
-Florida,Kentucky,45,7,39,12,FALSE,FALSE,1
-Florida,Tennessee,28,38,23,24,TRUE,TRUE,1
-Florida,Vanderbilt,13,6,29,18,FALSE,FALSE,1
-Florida,Missouri,40,14,19,22,FALSE,TRUE,0
-Florida,Georgia,24,10,30,20,FALSE,FALSE,1
-Florida,South Carolina,20,7,26,19,FALSE,FALSE,1
-Florida,LSU,16,10,21,24,FALSE,TRUE,0
-Georgia,Missouri,28,27,28,19,FALSE,FALSE,1
-Georgia,Mississippi,14,45,34,17,TRUE,FALSE,0
-Georgia,Tennessee,31,34,31,31,TRUE,TRUE,1
-Georgia,South Carolina,28,14,30,30,FALSE,FALSE,1
-Georgia,Vanderbilt,16,17,39,16,TRUE,FALSE,0
-Georgia,Kentucky,27,24,40,24,FALSE,FALSE,1
-Kentucky,South Carolina,17,10,25,34,FALSE,TRUE,0
-Kentucky,Vanderbilt,20,13,18,26,FALSE,TRUE,0
-Kentucky,Missouri,35,21,18,26,FALSE,TRUE,0
-Kentucky,Tennessee,36,49,24,25,TRUE,TRUE,1
-LSU,Missouri,42,7,19,21,FALSE,TRUE,0
-LSU,Mississippi,38,21,28,27,FALSE,FALSE,1
-LSU,Texas A&M,54,39,28,18,FALSE,FALSE,1
-Mississippi,Texas A&M,29,28,33,26,FALSE,FALSE,1
-Mississippi,Vanderbilt,17,38,26,24,TRUE,FALSE,0
-Missouri,South Carolina,21,31,23,23,TRUE,TRUE,1
-Missouri,Vanderbilt,26,17,24,18,FALSE,FALSE,1
-Missouri,Tennessee,37,63,28,27,TRUE,FALSE,0
-South Carolina,Vanderbilt,13,10,25,17,FALSE,FALSE,1
-South Carolina,Texas A&M,13,24,26,38,TRUE,TRUE,1
-South Carolina,Tennessee,24,21,26,27,FALSE,TRUE,0
-Tennessee,Texas A&M,38,45,30,44,TRUE,TRUE,1
-Tennessee,Vanderbilt,34,45,23,24,TRUE,TRUE,1
+Team1,Team2,Actual1,Actual2,Predict1,Predict2,,,Correct Guess,,,
+Mississippi St.,South Carolina,27,14,22,30,FALSE,TRUE,0,,,
+Mississippi St.,LSU,20,23,19,33,TRUE,TRUE,1,,,
+Mississippi St.,Auburn,14,38,24,26,TRUE,TRUE,1,,,
+Mississippi St.,Kentucky,38,40,30,21,TRUE,FALSE,0,,,
+Mississippi St.,Texas A&M,35,28,25,36,FALSE,TRUE,0,,,
+Mississippi St.,Alabama,3,51,11,28,TRUE,TRUE,1,,,
+Mississippi St.,Arkansas,42,58,30,31,TRUE,TRUE,1,,,
+Mississippi St.,Mississippi,55,20,23,28,FALSE,TRUE,0,,,
+Alabama,Mississippi,48,43,30,17,FALSE,FALSE,1,,,
+Alabama,Kentucky,34,6,35,17,FALSE,FALSE,1,,,
+Alabama,Arkansas,49,30,37,12,FALSE,FALSE,1,,,
+Alabama,Tennessee,49,10,23,23,FALSE,TRUE,0,,,
+Alabama,Texas A&M,33,14,43,25,FALSE,FALSE,1,,,
+Alabama,LSU,10,0,25,17,FALSE,FALSE,1,,,
+Alabama,Auburn,30,12,36,21,FALSE,FALSE,1,,,
+Alabama,Florida,54,16,31,18,FALSE,FALSE,1,,,
+Arkansas,Texas A&M,24,45,30,36,TRUE,TRUE,1,,,
+Arkansas,Mississippi,34,30,30,29,FALSE,FALSE,1,,,
+Arkansas,Auburn,3,56,33,33,TRUE,TRUE,1,,,
+Arkansas,Florida,31,10,17,30,FALSE,TRUE,0,,,
+Arkansas,LSU,10,38,25,26,TRUE,TRUE,1,,,
+Arkansas,Missouri,24,28,25,20,TRUE,FALSE,0,,,
+Auburn,Texas A&M,16,29,38,38,TRUE,TRUE,1,,,
+Auburn,LSU,18,13,22,28,FALSE,TRUE,0,,,
+Auburn,Mississippi,40,29,29,29,FALSE,FALSE,1,,,
+Auburn,Vanderbilt,23,16,17,21,FALSE,TRUE,0,,,
+Auburn,Georgia,7,13,20,34,TRUE,TRUE,1,,,
+Florida,Kentucky,45,7,39,12,FALSE,FALSE,1,,,
+Florida,Tennessee,28,38,23,24,TRUE,TRUE,1,,,
+Florida,Vanderbilt,13,6,29,18,FALSE,FALSE,1,,,
+Florida,Missouri,40,14,19,22,FALSE,TRUE,0,,,
+Florida,Georgia,24,10,30,20,FALSE,FALSE,1,,,
+Florida,South Carolina,20,7,26,19,FALSE,FALSE,1,,,
+Florida,LSU,16,10,21,24,FALSE,TRUE,0,,,
+Georgia,Missouri,28,27,28,19,FALSE,FALSE,1,,,
+Georgia,Mississippi,14,45,34,17,TRUE,FALSE,0,,,
+Georgia,Tennessee,31,34,31,31,TRUE,TRUE,1,,,
+Georgia,South Carolina,28,14,30,30,FALSE,FALSE,1,,,
+Georgia,Vanderbilt,16,17,39,16,TRUE,FALSE,0,,,
+Georgia,Kentucky,27,24,40,24,FALSE,FALSE,1,,,
+Kentucky,South Carolina,17,10,25,34,FALSE,TRUE,0,,,
+Kentucky,Vanderbilt,20,13,18,26,FALSE,TRUE,0,,,
+Kentucky,Missouri,35,21,18,26,FALSE,TRUE,0,,,
+Kentucky,Tennessee,36,49,24,25,TRUE,TRUE,1,,,
+LSU,Missouri,42,7,19,21,FALSE,TRUE,0,,,
+LSU,Mississippi,38,21,28,27,FALSE,FALSE,1,,,
+LSU,Texas A&M,54,39,28,18,FALSE,FALSE,1,,,
+Mississippi,Texas A&M,29,28,33,26,FALSE,FALSE,1,,,
+Mississippi,Vanderbilt,17,38,26,24,TRUE,FALSE,0,,,
+Missouri,South Carolina,21,31,23,23,TRUE,TRUE,1,,,
+Missouri,Vanderbilt,26,17,24,18,FALSE,FALSE,1,,,
+Missouri,Tennessee,37,63,28,27,TRUE,FALSE,0,,,
+South Carolina,Vanderbilt,13,10,25,17,FALSE,FALSE,1,,,
+South Carolina,Texas A&M,13,24,26,38,TRUE,TRUE,1,,,
+South Carolina,Tennessee,24,21,26,27,FALSE,TRUE,0,,,
+Tennessee,Texas A&M,38,45,30,44,TRUE,TRUE,1,,,
+Tennessee,Vanderbilt,34,45,23,24,TRUE,TRUE,1,,,
