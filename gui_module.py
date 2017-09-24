@@ -112,6 +112,14 @@ class App:
             return self.get_matchup_input()
         return teampick1.get(), teampick2.get()
 
+    def return_result(self, result, isEnd=False):
+        top = Toplevel()
+        center(top)
+        Message(top, text=result).grid(column=0, row=0, columnspan=2)
+        Button(top, text="Ok", command=top.destroy).grid(column=0, row=1)
+        if isEnd:
+            Button(top, text="Exit", command=self.master.destroy).grid(column=1, row=1)
+
 def center(win):
     win.update_idletasks()
     width = win.winfo_width()
@@ -120,8 +128,10 @@ def center(win):
     y = (win.winfo_screenheight() // 2) - (height // 2)
     win.geometry('{}x{}+{}+{}'.format(width, height, x, y))
 
-root = Tk()
+'''root = Tk()
 root.title("CFB Outcome Predicter")
-App(root)
+Window = App(root)
 
-root.mainloop()
+#Window.return_result("This is a test of the result window system.")
+
+root.mainloop()'''

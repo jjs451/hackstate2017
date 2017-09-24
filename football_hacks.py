@@ -135,6 +135,25 @@ def train_neural_network(x):
         accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
 
         print('Accuracy:', accuracy.eval({x: x_test, y: y_test}))
-        #print("predictions", prediction.eval(feed_dict={x: x_test, y: y_test}, session=sess))
+        # print("predictions", prediction.eval(feed_dict={x: x_test, y: y_test}, session=sess))
+        pred_list = prediction.eval(feed_dict={x: x_test, y: y_test}, session=sess)
+        pred_list.tofile('predictions.csv', ',')
+        preds = open('predictions.csv', "r+")
+        line = preds.readline()
+        pos = -1
+        while True:
+            pos = line.find(",", pos+1)
+            if pos == -1:
+                break
+            pos = line.find(",", pos+1)
+            if pos == -1:
+                break
+            line = line[:pos] + "\n" + line[pos:]
+            pos += 1
+
+        preds.seek(0)
+        preds.truncate()
+        preds.write(line)
+        preds.close()
 
 train_neural_network(x)
