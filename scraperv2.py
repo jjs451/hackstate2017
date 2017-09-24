@@ -16,7 +16,6 @@ VANDERBILT = 736
 
 from bs4 import BeautifulSoup 
 import requests
-import Team
 
 def get_team_data(year, team):
     """Fetches data for a given team and year, returns a Team object"""
@@ -48,25 +47,26 @@ def populate_csv(year, team, teamname):
 
     csv.close()
 
-populate_csv("2016", MISSISSIPPI_STATE, "Mississippi St.")
-populate_csv("2016", ALABAMA, "Alabama")
-populate_csv("2016", ARKANSAS, "Arkansas")
-populate_csv("2016", AUBURN, "Auburn")
-populate_csv("2016", FLORIDA, "Florida")
-populate_csv("2016", GEORGIA, "Georgia")
-populate_csv("2016", KENTUCKY, "Kentucky")
-populate_csv("2016", LSU, "LSU")
-populate_csv("2016", TSUN, "Mississippi")
-populate_csv("2016", MISSOURI, "Missouri")
-populate_csv("2016", SOUTH_CAROLINA, "South Carolina")
-populate_csv("2016", TENNESEE, "Tennesee")
-populate_csv("2016", TEXAS, "Texas A&M")
-populate_csv("2016", VANDERBILT, "Vanderbilt")
+year = "2015"
+populate_csv(year, MISSISSIPPI_STATE, "Mississippi St.")
+populate_csv(year, ALABAMA, "Alabama")
+populate_csv(year, ARKANSAS, "Arkansas")
+populate_csv(year, AUBURN, "Auburn")
+populate_csv(year, FLORIDA, "Florida")
+populate_csv(year, GEORGIA, "Georgia")
+populate_csv(year, KENTUCKY, "Kentucky")
+populate_csv(year, LSU, "LSU")
+populate_csv(year, TSUN, "Mississippi")
+populate_csv(year, MISSOURI, "Missouri")
+populate_csv(year, SOUTH_CAROLINA, "South Carolina")
+populate_csv(year, TENNESEE, "Tennesee")
+populate_csv(year, TEXAS, "Texas A&M")
+populate_csv(year, VANDERBILT, "Vanderbilt")
 
-csv = open("data.csv", "r")
+csv = open("data_2015.csv", "r")
 data = csv.readlines()
 csv.close()
-csv = open("data.csv", "w")
+csv = open("data_2015.csv", "w")
 csv.seek(0)
 csv.truncate()
 for row in data:
