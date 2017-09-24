@@ -1,0 +1,495 @@
+Mississippi St.,Auburn,2,3
+Mississippi St.,LSU,24,34
+Mississippi St.,Vanderbilt,17,14
+Mississippi St.,Tennessee,3,34
+Mississippi St.,Kentucky,13,14
+Mississippi St.,Alabama,7,32
+Mississippi St.,Arkansas,31,28
+Mississippi St.,Mississippi,0,45
+Alabama,Arkansas,49,14
+Alabama,Georgia,41,30
+Alabama,Kentucky,17,14
+Alabama,Mississippi,24,20
+Alabama,Tennessee,29,9
+Alabama,LSU,27,21
+Alabama,Auburn,36,0
+Alabama,Florida,20,31
+Arkansas,Florida,7,38
+Arkansas,Auburn,25,22
+Arkansas,Kentucky,20,21
+Arkansas,Mississippi,21,23
+Arkansas,South Carolina,21,34
+Arkansas,LSU,31,30
+Auburn,LSU,21,26
+Auburn,Tennessee,14,12
+Auburn,Vanderbilt,13,14
+Auburn,Mississippi,7,17
+Auburn,Georgia,13,17
+Florida,Tennessee,30,6
+Florida,Mississippi,30,31
+Florida,LSU,51,21
+Florida,Kentucky,63,5
+Florida,Georgia,49,10
+Florida,Vanderbilt,42,14
+Florida,South Carolina,56,6
+Georgia,South Carolina,14,7
+Georgia,Tennessee,26,14
+Georgia,Vanderbilt,24,14
+Georgia,LSU,52,38
+Georgia,Kentucky,42,38
+Kentucky,South Carolina,17,24
+Kentucky,Vanderbilt,24,31
+Kentucky,Tennessee,10,28
+LSU,South Carolina,24,17
+LSU,Mississippi,13,31
+Mississippi,Vanderbilt,17,23
+Mississippi,South Carolina,24,31
+South Carolina,Vanderbilt,17,24
+South Carolina,Tennessee,27,6
+Tennessee,Florida,6,30
+Tennessee,Auburn,12,14
+Tennessee,Georgia,14,26
+Tennessee,Mississippi St.,34,3
+Tennessee,Alabama,9,29
+Tennessee,South Carolina,6,27
+Tennessee,Vanderbilt,20,10
+Tennessee,Kentucky,28,10
+Vanderbilt,Tennessee,10,20
+Mississippi St.,Auburn,24,49
+Mississippi St.,Vanderbilt,15,3
+Mississippi St.,LSU,26,30
+Mississippi St.,Florida,19,29
+Mississippi St.,Kentucky,31,24
+Mississippi St.,Alabama,3,31
+Mississippi St.,Arkansas,21,42
+Mississippi St.,Mississippi,41,27
+Alabama,Arkansas,35,7
+Alabama,Kentucky,38,20
+Alabama,Mississippi,22,3
+Alabama,South Carolina,20,6
+Alabama,Tennessee,12,10
+Alabama,LSU,24,15
+Alabama,Auburn,26,21
+Alabama,Florida,32,13
+Arkansas,Georgia,41,52
+Arkansas,Texas A&M,47,19
+Arkansas,Auburn,44,23
+Arkansas,Florida,20,23
+Arkansas,Mississippi,17,30
+Arkansas,South Carolina,33,16
+Arkansas,LSU,30,33
+Auburn,Tennessee,26,22
+Auburn,Kentucky,14,21
+Auburn,LSU,10,31
+Auburn,Mississippi,33,20
+Auburn,Georgia,24,31
+Florida,Tennessee,23,13
+Florida,Kentucky,41,7
+Florida,LSU,13,3
+Florida,Georgia,41,17
+Florida,Vanderbilt,27,3
+Florida,South Carolina,24,14
+Georgia,South Carolina,41,37
+Georgia,LSU,13,20
+Georgia,Tennessee,19,45
+Georgia,Vanderbilt,34,10
+Georgia,Kentucky,27,34
+Georgia,Texas A&M,44,20
+Kentucky,South Carolina,26,28
+Kentucky,Vanderbilt,24,13
+Kentucky,Tennessee,24,30
+LSU,Vanderbilt,23,9
+LSU,Mississippi,23,25
+Mississippi,South Carolina,10,16
+Mississippi,Vanderbilt,23,7
+Mississippi,Tennessee,42,17
+South Carolina,Vanderbilt,14,10
+South Carolina,Tennessee,13,31
+Tennessee,Florida,13,23
+Tennessee,Auburn,22,26
+Tennessee,Georgia,45,19
+Tennessee,Alabama,10,12
+Tennessee,South Carolina,31,13
+Tennessee,Mississippi,17,42
+Tennessee,Vanderbilt,31,16
+Tennessee,Kentucky,30,24
+Vanderbilt,Tennessee,16,31
+Mississippi St.,Auburn,14,17
+Mississippi St.,LSU,7,29
+Mississippi St.,Georgia,24,12
+Mississippi St.,Florida,10,7
+Mississippi St.,Kentucky,24,17
+Mississippi St.,Alabama,10,30
+Mississippi St.,Arkansas,31,38
+Mississippi St.,Mississippi,31,23
+Alabama,Arkansas,24,20
+Alabama,Florida,31,6
+Alabama,South Carolina,21,35
+Alabama,Mississippi,23,10
+Alabama,Tennessee,41,10
+Alabama,LSU,21,24
+Alabama,Auburn,27,28
+Arkansas,Georgia,31,24
+Arkansas,Texas A&M,24,17
+Arkansas,Auburn,43,65
+Arkansas,Mississippi,38,24
+Arkansas,Vanderbilt,49,14
+Arkansas,South Carolina,41,20
+Arkansas,LSU,31,23
+Auburn,South Carolina,35,27
+Auburn,Kentucky,37,34
+Auburn,LSU,24,17
+Auburn,Mississippi,51,31
+Auburn,Georgia,49,31
+Auburn,South Carolina,56,17
+Florida,Tennessee,31,17
+Florida,Kentucky,48,14
+Florida,LSU,29,33
+Florida,Georgia,34,31
+Florida,Vanderbilt,55,14
+Florida,South Carolina,14,36
+Georgia,South Carolina,6,17
+Georgia,Tennessee,41,14
+Georgia,Vanderbilt,43,0
+Georgia,Kentucky,44,31
+Kentucky,Mississippi,35,42
+Kentucky,South Carolina,31,28
+Kentucky,Vanderbilt,38,20
+Kentucky,Tennessee,14,24
+LSU,Vanderbilt,27,3
+LSU,Tennessee,16,14
+LSU,Mississippi,43,36
+LSU,Texas A&M,41,24
+Mississippi,Vanderbilt,14,28
+Mississippi,Tennessee,14,52
+Missouri,Texas A&M,30,9
+South Carolina,Vanderbilt,21,7
+South Carolina,Tennessee,38,24
+Tennessee,Florida,17,31
+Tennessee,LSU,14,16
+Tennessee,Georgia,14,41
+Tennessee,Alabama,10,41
+Tennessee,South Carolina,24,38
+Tennessee,Mississippi,52,14
+Tennessee,Vanderbilt,24,10
+Tennessee,Kentucky,24,14
+Vanderbilt,Tennessee,10,24
+Mississippi St.,Auburn,34,41
+Mississippi St.,LSU,6,19
+Mississippi St.,Georgia,10,24
+Mississippi St.,South Carolina,12,14
+Mississippi St.,Kentucky,28,16
+Mississippi St.,Alabama,7,24
+Mississippi St.,Arkansas,17,44
+Mississippi St.,Mississippi,31,3
+Alabama,Arkansas,38,14
+Alabama,Florida,38,10
+Alabama,Vanderbilt,34,0
+Alabama,Mississippi,52,7
+Alabama,Tennessee,37,6
+Alabama,LSU,6,9
+Alabama,Auburn,42,14
+Alabama,LSU,21,0
+Arkansas,Texas A&M,42,38
+Arkansas,Auburn,38,14
+Arkansas,Mississippi,29,24
+Arkansas,Vanderbilt,31,28
+Arkansas,South Carolina,44,28
+Arkansas,Tennessee,49,7
+Arkansas,LSU,17,41
+Auburn,South Carolina,16,13
+Auburn,Florida,17,6
+Auburn,LSU,10,45
+Auburn,Mississippi,41,23
+Auburn,Georgia,7,45
+Florida,Tennessee,33,23
+Florida,Kentucky,48,10
+Florida,LSU,11,41
+Florida,Georgia,20,24
+Florida,Vanderbilt,26,21
+Florida,South Carolina,12,17
+Georgia,South Carolina,42,45
+Georgia,Mississippi,27,13
+Georgia,Tennessee,20,12
+Georgia,Vanderbilt,33,28
+Georgia,Kentucky,19,10
+Georgia,LSU,10,42
+Kentucky,LSU,7,35
+Kentucky,South Carolina,3,54
+Kentucky,Mississippi,30,13
+Kentucky,Vanderbilt,8,38
+Kentucky,Tennessee,10,7
+LSU,Tennessee,38,7
+LSU,Mississippi,52,3
+Mississippi,Vanderbilt,7,30
+Missouri,Texas A&M,38,31
+South Carolina,Vanderbilt,21,3
+South Carolina,Tennessee,14,3
+Tennessee,Florida,23,33
+Tennessee,Georgia,12,20
+Tennessee,LSU,7,38
+Tennessee,Alabama,6,37
+Tennessee,South Carolina,3,14
+Tennessee,Arkansas,7,49
+Tennessee,Vanderbilt,27,21
+Tennessee,Kentucky,7,10
+Vanderbilt,Tennessee,21,27
+Mississippi St.,Auburn,28,10
+Mississippi St.,Kentucky,27,14
+Mississippi St.,Tennessee,41,31
+Mississippi St.,Alabama,7,38
+Mississippi St.,Texas A&M,13,38
+Mississippi St.,LSU,17,37
+Mississippi St.,Arkansas,45,14
+Mississippi St.,Mississippi,24,41
+Alabama,Arkansas,52,0
+Alabama,Mississippi,33,14
+Alabama,Missouri,42,10
+Alabama,Tennessee,44,13
+Alabama,LSU,21,17
+Alabama,Texas A&M,24,29
+Alabama,Auburn,49,0
+Alabama,Georgia,32,28
+Arkansas,Texas A&M,10,58
+Arkansas,Auburn,24,7
+Arkansas,Kentucky,49,7
+Arkansas,Mississippi,27,30
+Arkansas,South Carolina,20,38
+Arkansas,LSU,13,20
+Auburn,LSU,10,12
+Auburn,Mississippi,20,41
+Auburn,Vanderbilt,13,17
+Auburn,Texas A&M,21,63
+Auburn,Georgia,0,38
+Florida,Texas A&M,20,17
+Florida,Tennessee,37,20
+Florida,Kentucky,38,0
+Florida,LSU,14,6
+Florida,Vanderbilt,31,17
+Florida,South Carolina,44,11
+Florida,Georgia,9,17
+Florida,Missouri,14,7
+Georgia,Missouri,41,20
+Georgia,Vanderbilt,48,3
+Georgia,Tennessee,51,44
+Georgia,South Carolina,7,35
+Georgia,Kentucky,29,24
+Georgia,Mississippi,37,10
+Kentucky,South Carolina,17,38
+Kentucky,Missouri,10,33
+Kentucky,Vanderbilt,0,40
+Kentucky,Tennessee,17,37
+LSU,South Carolina,23,21
+LSU,Texas A&M,24,19
+LSU,Mississippi,41,35
+Mississippi,Texas A&M,27,30
+Mississippi,Vanderbilt,26,27
+Missouri,South Carolina,10,31
+Missouri,Vanderbilt,15,19
+Missouri,Tennessee,51,48
+Missouri,Texas A&M,29,59
+South Carolina,Vanderbilt,17,13
+South Carolina,Tennessee,38,35
+Tennessee,Florida,20,37
+Tennessee,Georgia,44,51
+Tennessee,Mississippi St.,31,41
+Tennessee,Alabama,13,44
+Tennessee,South Carolina,35,38
+Tennessee,Missouri,48,51
+Tennessee,Vanderbilt,18,41
+Tennessee,Kentucky,37,17
+Vanderbilt,Tennessee,41,18
+Mississippi St.,Auburn,20,24
+Mississippi St.,LSU,26,59
+Mississippi St.,Kentucky,28,22
+Mississippi St.,South Carolina,16,34
+Mississippi St.,Texas A&M,41,51
+Mississippi St.,Alabama,7,20
+Mississippi St.,Arkansas,24,17
+Mississippi St.,Mississippi,17,10
+Alabama,Texas A&M,49,42
+Alabama,Mississippi,25,0
+Alabama,Kentucky,48,7
+Alabama,Arkansas,52,0
+Alabama,Tennessee,45,10
+Alabama,LSU,38,17
+Alabama,Auburn,28,34
+Arkansas,Texas A&M,33,45
+Arkansas,Florida,10,30
+Arkansas,South Carolina,7,52
+Arkansas,Auburn,17,35
+Arkansas,Mississippi,24,34
+Arkansas,LSU,27,31
+Auburn,LSU,21,35
+Auburn,Mississippi,30,22
+Auburn,Texas A&M,45,41
+Auburn,Tennessee,55,23
+Auburn,Georgia,43,38
+Auburn,Missouri,59,42
+Florida,Tennessee,31,17
+Florida,Kentucky,24,7
+Florida,LSU,6,17
+Florida,Missouri,17,36
+Florida,Georgia,20,23
+Florida,Vanderbilt,17,34
+Florida,South Carolina,14,19
+Georgia,South Carolina,41,30
+Georgia,LSU,44,41
+Georgia,Tennessee,34,31
+Georgia,Missouri,26,41
+Georgia,Vanderbilt,27,31
+Georgia,Kentucky,59,17
+Kentucky,South Carolina,28,35
+Kentucky,Missouri,17,48
+Kentucky,Vanderbilt,6,22
+Kentucky,Tennessee,14,27
+LSU,Mississippi,24,27
+LSU,Texas A&M,34,10
+Mississippi,Vanderbilt,39,35
+Mississippi,Texas A&M,38,41
+Mississippi,Missouri,10,24
+Missouri,Vanderbilt,51,28
+Missouri,South Carolina,24,27
+Missouri,Tennessee,31,3
+Missouri,Texas A&M,28,21
+South Carolina,Vanderbilt,35,25
+South Carolina,Tennessee,21,23
+Tennessee,Florida,17,31
+Tennessee,Georgia,31,34
+Tennessee,South Carolina,23,21
+Tennessee,Alabama,10,45
+Tennessee,Missouri,3,31
+Tennessee,Auburn,23,55
+Tennessee,Vanderbilt,10,14
+Tennessee,Kentucky,27,14
+Texas A&M,Vanderbilt,56,24
+Vanderbilt,Tennessee,14,10
+Mississippi St.,LSU,34,29
+Mississippi St.,Texas A&M,48,31
+Mississippi St.,Auburn,38,23
+Mississippi St.,Kentucky,45,31
+Mississippi St.,Arkansas,17,10
+Mississippi St.,Alabama,20,25
+Mississippi St.,Vanderbilt,51,0
+Mississippi St.,Mississippi,17,31
+Alabama,Florida,42,21
+Alabama,Mississippi,17,23
+Alabama,Arkansas,14,13
+Alabama,Texas A&M,59,0
+Alabama,Tennessee,34,20
+Alabama,LSU,20,13
+Alabama,Auburn,55,44
+Alabama,Missouri,42,13
+Arkansas,Auburn,21,45
+Arkansas,Texas A&M,28,35
+Arkansas,Georgia,32,45
+Arkansas,LSU,17,0
+Arkansas,Mississippi,30,0
+Arkansas,Missouri,14,21
+Auburn,LSU,41,7
+Auburn,South Carolina,42,35
+Auburn,Mississippi,35,31
+Auburn,Texas A&M,38,41
+Auburn,Georgia,7,34
+Florida,Kentucky,36,30
+Florida,Tennessee,10,9
+Florida,LSU,27,30
+Florida,Missouri,13,42
+Florida,Georgia,38,20
+Florida,Vanderbilt,34,10
+Florida,South Carolina,20,23
+Georgia,South Carolina,35,38
+Georgia,Tennessee,35,32
+Georgia,Vanderbilt,44,17
+Georgia,Missouri,34,0
+Georgia,Kentucky,63,31
+Kentucky,Vanderbilt,17,7
+Kentucky,South Carolina,45,38
+Kentucky,LSU,3,41
+Kentucky,Missouri,10,20
+Kentucky,Tennessee,16,50
+LSU,Mississippi,10,7
+LSU,Texas A&M,23,17
+Mississippi,Vanderbilt,41,3
+Mississippi,Texas A&M,35,20
+Mississippi,Tennessee,34,3
+Missouri,South Carolina,21,20
+Missouri,Vanderbilt,24,14
+Missouri,Texas A&M,34,27
+Missouri,Tennessee,29,21
+South Carolina,Texas A&M,28,52
+South Carolina,Vanderbilt,48,34
+South Carolina,Tennessee,42,45
+Tennessee,Georgia,32,35
+Tennessee,Florida,9,10
+Tennessee,Mississippi,3,34
+Tennessee,Alabama,20,34
+Tennessee,South Carolina,45,42
+Tennessee,Kentucky,50,16
+Tennessee,Missouri,21,29
+Tennessee,Vanderbilt,24,17
+Vanderbilt,Tennessee,17,24
+Mississippi St.,LSU,19,21
+Mississippi St.,Auburn,17,9
+Mississippi St.,Texas A&M,17,30
+Mississippi St.,Kentucky,42,16
+Mississippi St.,Missouri,31,13
+Mississippi St.,Alabama,6,31
+Mississippi St.,Arkansas,51,50
+Mississippi St.,Mississippi,27,38
+Alabama,Mississippi,37,43
+Alabama,Georgia,38,10
+Alabama,Arkansas,27,14
+Alabama,Texas A&M,41,23
+Alabama,Tennessee,19,14
+Alabama,LSU,30,16
+Alabama,Auburn,29,13
+Alabama,Florida,29,15
+Arkansas,Texas A&M,21,28
+Arkansas,Tennessee,24,20
+Arkansas,Auburn,54,46
+Arkansas,Mississippi,53,52
+Arkansas,LSU,31,14
+Arkansas,Missouri,28,3
+Auburn,LSU,21,45
+Auburn,Kentucky,30,27
+Auburn,Mississippi,19,27
+Auburn,Texas A&M,26,10
+Auburn,Georgia,13,20
+Florida,Kentucky,14,9
+Florida,Tennessee,28,27
+Florida,Mississippi,38,10
+Florida,Missouri,21,3
+Florida,LSU,28,35
+Florida,Georgia,27,3
+Florida,Vanderbilt,9,7
+Florida,South Carolina,24,14
+Georgia,Vanderbilt,31,14
+Georgia,South Carolina,52,20
+Georgia,Tennessee,31,38
+Georgia,Missouri,9,6
+Georgia,Kentucky,27,3
+Kentucky,South Carolina,26,22
+Kentucky,Missouri,21,13
+Kentucky,Tennessee,21,52
+Kentucky,Vanderbilt,17,21
+LSU,South Carolina,45,24
+LSU,Mississippi,17,38
+LSU,Texas A&M,19,7
+Mississippi,Vanderbilt,27,16
+Mississippi,Texas A&M,23,3
+Missouri,South Carolina,24,10
+Missouri,Vanderbilt,3,10
+Missouri,Tennessee,8,19
+South Carolina,Vanderbilt,19,10
+South Carolina,Texas A&M,28,35
+South Carolina,Tennessee,24,27
+Tennessee,Florida,27,28
+Tennessee,Arkansas,20,24
+Tennessee,Georgia,38,31
+Tennessee,Alabama,14,19
+Tennessee,Kentucky,52,21
+Tennessee,South Carolina,27,24
+Tennessee,Missouri,19,8
+Tennessee,Vanderbilt,53,28
+Texas A&M,Vanderbilt,25,0
