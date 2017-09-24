@@ -128,10 +128,10 @@ def center(win):
     y = (win.winfo_screenheight() // 2) - (height // 2)
     win.geometry('{}x{}+{}+{}'.format(width, height, x, y))
 
-'''root = Tk()
+root = Tk()
 root.title("CFB Outcome Predicter")
 Window = App(root)
 
 #Window.return_result("This is a test of the result window system.")
 
-root.mainloop()'''
+root.mainloop()
